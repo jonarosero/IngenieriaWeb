@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetació en HTML y CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4242581e67.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header class="cabeceraPrincipal">
+      <h1> <i class="fas fa-newspaper"> Las Noticias </i></h1>
+        <section class="seccionCabecera">
+            <nav class="menuSecundario"> 
+                <a href="">Login</a> | <a href="">Registro</a>
+            </nav>
+            <input type="text" placeholder="Buscar...">
+        </section>
+    </header>
+
+    <nav class="menuPrincipal">
+        <div>
+            <a class="active" href="index.html">Inicio</a>
+            <a href="">Noticias</a>
+            <a href="">Videos</a>
+            <a href="">Contactos</a>
+        </div> 
+    </nav>
+    <section class="galeriaPrinicpal">
+        <div class="container">
+    
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <div class="slide-wrapper">
+              <div class="slide"><img src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"></div>
+        
+              <div class="nav">
+                <label for="img-6" class="prev">&#x2039;</label>
+                <label for="img-2" class="next">&#x203a;</label>
+              </div>
+            </div>
+        
+            <input type="radio" name="radio-btn" id="img-2" />
+            <div class="slide-wrapper">
+              <div class="slide"><img src="https://images.unsplash.com/photo-1580918860823-f0072f5a6719?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"></div>
+        
+              <div class="nav">
+                <label for="img-1" class="prev">&#x2039;</label>
+                <label for="img-3" class="next">&#x203a;</label>
+              </div>
+            </div>
+        
+            <input type="radio" name="radio-btn" id="img-3" />
+            <div class="slide-wrapper">
+              <div class="slide"><img src="https://images.unsplash.com/photo-1575113029377-ed59774895c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"></div>
+        
+              <div class="nav">
+                <label for="img-2" class="prev">&#x2039;</label>
+                <label for="img-4" class="next">&#x203a;</label>
+              </div>
+            </div>
+        
+            <input type="radio" name="radio-btn" id="img-4" />
+            <div class="slide-wrapper">
+              <div class="slide"><img src="http://farm9.staticflickr.com/8061/8237246833_54d8fa37f0_z.jpg"></div>
+        
+              <div class="nav">
+                <label for="img-3" class="prev">&#x2039;</label>
+                <label for="img-5" class="next">&#x203a;</label>
+              </div>
+            </div>
+        
+            <input type="radio" name="radio-btn" id="img-5" />
+            <div class="slide-wrapper">
+              <div class="slide"><img src="https://images.unsplash.com/photo-1496162963310-1180604b1e53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1360&q=80"></div>
+        
+              <div class="nav">
+                <label for="img-4" class="prev">&#x2039;</label>
+                <label for="img-6" class="next">&#x203a;</label>
+              </div>
+            </div>
+        
+            <input type="radio" name="radio-btn" id="img-6" />
+            <div class="slide-wrapper">
+              <div class="slide"><img src="https://images.unsplash.com/photo-1501684691657-cf3012635478?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"></div>
+        
+              <div class="nav">
+                <label for="img-5" class="prev">&#x2039;</label>
+                <label for="img-1" class="next">&#x203a;</label>
+              </div>
+            </div>
+          </div>
+    </section>
+    <main>
+        <section class="noticias">
+            <img src="https://images.unsplash.com/photo-1579544787614-fa683917e045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=803&q=80" alt="notice">
+            <div class="text">
+                <h4><b>Noticia 1</b></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate mauris eget nisl egestas...</p>
+                <button>Ver más</button>
+
+            </div>
+        </section>
+        <section class="noticias">
+            <img src="https://images.unsplash.com/photo-1584213211665-844b30ef8738?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="notice">
+            <div class="text">
+                <h4><b>Noticia 2</b></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate mauris eget nisl egestas...</p>
+                <button>Ver más</button>
+            </div>
+        </section>
+    </main>
+    <aside class="sponsor">
+        <h4>SPONSORS</h4>
+        <section class="sponsorItem"><a href="" class="fab fa-autoprefixer"></a></section> 
+        <section class="sponsorItem"><a href="" class="fab fa-accusoft"></a></section> 
+        <section class="sponsorItem"><a href="" class="fab fa-affiliatetheme"></a></section> 
+        <section class="sponsorItem"><a href="" class="fab fa-atlassian"></a></section> 
+    </aside>
+    <footer class="piePagina">
+      <p class="author">With ❤️ and 👨‍💻 by <a href="https://github.com/jonarosero">@jonarosero</a></p>
+      <h5>Todos los derechos reservador UTPL 2020</h5>
+    </footer>
+</body>
+</html>
+
